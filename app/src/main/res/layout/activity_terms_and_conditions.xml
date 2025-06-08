@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+
+    <!-- ScrollView on right -->
+    <ScrollView
+        android:id="@+id/rightScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FAFAFA"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Heading -->
+            <TextView
+                android:id="@+id/Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms &amp; Conditions"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Intro -->
+            <TextView
+                android:id="@+id/Introduction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Effective Date: 03 May 2025\n\nWelcome to Cashify, a personal finance and budgeting application designed to help users manage their income, expenses, and financial goals. By using this application, you agree to be bound by the following terms and conditions. If you do not agree with any part of these terms, you must discontinue use of the application."
+                android:layout_marginBottom="16dp" />
+
+            <!-- Repeat for each section -->
+            <TextView
+                android:id="@+id/AcceptanceOfTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By accessing or using the Cashify app, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions, our Privacy Policy, and any additional terms applicable to specific features."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/UserEligibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must be at least 10 years of age to use Cashify. By registering or using the app, you confirm that you meet this age requirement."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/AccountRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When creating an account:\n• You must provide accurate and complete information.\n• You are responsible for maintaining the confidentiality of your login credentials.\n• You agree to notify us immediately if you suspect unauthorized use of your account."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/PrivacyAndDataUse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We respect your privacy. Please review our [Privacy Policy] to understand how we collect, use, and share your personal information. We never sell your financial data."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/UserConduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="You agree not to:\n• Use the app for any unlawful or fraudulent activity.\n• Attempt to reverse-engineer, copy, or tamper with the app’s software.\n• Upload malicious content or interfere with system performance." />
+
+            <TextView
+                android:id="@+id/FinancialAdviceDisclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cashify is a financial tool for educational and budgeting purposes only. It does not provide legal, tax, or investment advice. Users should consult with certified professionals before making financial decisions."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/DataAccuracy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We strive to ensure data accuracy but do not guarantee that your budget or goals will always reflect real-world financial performance. Users are solely responsible for verifying transactions and reports."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/Termination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We reserve the right to suspend or terminate your account at our discretion if we suspect misuse, fraud, or violation of these terms."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/IntellectualProperty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All logos, trademarks, designs, and code are owned by ByteMe Technologies and are protected under applicable intellectual property laws. You may not reuse or distribute them without written permission."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/ThirdPartyServices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cashify may integrate with third-party services (e.g., Firebase). We are not responsible for their privacy policies or practices. Use at your own discretion."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/LimitationOfLiability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To the fullest extent permitted by law, Cashify and its developers are not liable for any direct, indirect, incidental, or consequential damages arising from your use or inability to use the app."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/ModificationToTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We reserve the right to update these Terms at any time. We will notify users of significant changes. Continued use of the app after updates constitutes acceptance of the new terms."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/GoverningLaw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="These Terms shall be governed by and construed in accordance with the laws of the Republic of South Africa, without regard to conflict of law provisions."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/ContactUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you have any questions or concerns about these Terms, please contact us at:\n📧 support@cashifyapp.com\n📍 36 Radar Road, Durban, South Africa\n\n✅ By tapping “Accept”, you confirm that you have read and agree to the Terms and Conditions."
+                android:layout_marginBottom="32dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/BackToRegister"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/c_app_button"
+                android:text="Back"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
