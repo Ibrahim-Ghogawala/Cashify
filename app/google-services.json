@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840023825668",
+    "project_id": "chashify-b64df",
+    "storage_bucket": "chashify-b64df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840023825668:android:37e84b8fb3fc03ac70c451",
+        "android_client_info": {
+          "package_name": "com.ByteMe.cashify_budget_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP62QiVluVCgqBuaqnJ0nyxQll0sbegOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
